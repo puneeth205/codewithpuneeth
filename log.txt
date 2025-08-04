@@ -1,0 +1,90 @@
+level-1
+PS C:\Users\DELL\Downloads\New folder (2)> python chatbot.py
+© Gemini Assistant — Type ‘exit’ to quit.
+
+You: "What are the colors in a rainbow?"
+
+Assistant:
+Step 1:  Rainbows are made of light.
+
+Step 2:  Sunlight is actually made up of many colors mixed together.
+
+Step 3:  When sunlight passes through raindrops, it bends and separates into its individual colors.
+
+Step 4:  These colors always appear in the same order.
+
+Step 5:  The colors in a rainbow are: Red, Orange, Yellow, Green, Blue, Indigo, and Violet.  You can remember this using the acronym ROY G. BIV.
+
+You: "Tell me why the sky is blue?"
+
+Assistant:
+Step 1:  Sunlight is made up of all the colors of the rainbow.
+
+Step 2:  When sunlight enters the Earth's atmosphere, it bumps into tiny air molecules (mostly nitrogen and oxygen).
+
+Step 3:  This bumping causes the sunlight to scatter in different directions.  This is called Rayleigh scattering.
+
+Step 4:  Blue and violet light have shorter wavelengths than other colors.  Shorter wavelengths are scattered more easily.
+
+Step 5:  So, blue and violet light get scattered much more than other colors.
+
+Step 6:  Our eyes are more sensitive to blue than violet, so we see a blue sky.
+
+You: "Which planet is the hottest?"
+
+Assistant:
+Step 1:  We need to think about what makes a planet hot.  The main factor is how close the planet is to its star.
+
+Step 2:  Our solar system's star is the Sun.
+
+Step 3:  The planet closest to the Sun is Mercury.
+
+Step 4:  Therefore, Mercury is the hottest planet in our solar system.
+
+You: "What is 15 + 23"
+
+Assistant:
+Okay, I understand.  I don't have a built-in calculator in the same way a physical calculator does.  However, I can access and process information from the real world through Google Search and other APIs.
+
+To get accurate results, please give me the math problem you want solved.  I will then use external resources to calculate the answer and provide it to you.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+level -2:
+PS C:\Users\DELL\Downloads\New folder (2)> python chatbot_with_tool.py
+📕 Gemini Assistant + Calculator — Type ‘exit’ to quit.
+
+You: “What is 12 times 7?”
+Assistant: 🧮 Result: 84
+
+You: “Add 45 and 30”
+Assistant: Sorry, I can only handle one type of task at a time.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+level-3:
+Query: Translate ‘Good Morning’ into German and then multiply 5 and 6.
+Extracted numbers: [5, 6]
+Error: Could not identify phrase to translate.
+Multiplication: 5 * 6 = 5 x 6 = 30
+-------------------------------
+
+Query: Add 10 and 20, then translate ‘Have a nice day’ into German.
+Extracted numbers: [10, 20]
+Addition: 10 + 20 = 10 + 20 = 30
+German translation: The most common and versatile translation of "Have a nice day" in German is:
+**Hab einen schönen Tag!**
+-------------------------------
+
+Query: Tell me the capital of Italy, then multiply 12 and 12.
+Extracted numbers: [12, 12]
+Capital of Italy: Rome
+Multiplication: 12 * 12 = 12 x 12 = 144
+-------------------------------
+
+Query: Translate ‘Sunshine’ into German.
+Extracted numbers: []
+Error: Could not identify phrase to translate.
+-------------------------------
+
+Query: Add 2 and 2 and multiply 3 and 3.
+Extracted numbers: [2, 2, 3, 3]
+Error: Could not find two numbers to add.
+Error: Could not find two numbers to multiply.
+-------------------------------
